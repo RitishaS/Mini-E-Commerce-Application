@@ -1,0 +1,4 @@
+.product-loading{display:grid;grid-template-columns:1fr .82fr;gap:9%;min-height:460px}
+.product-loading>div{background:linear-gradient(100deg,#eeede7 25%,#f5f4ef 42%,#eeede7 60%);background-size:200% 100%;animation:skeleton-shimmer 1.4s infinite}
+.product-loading section{padding-top:30px}.product-loading section span,.product-loading section i,.product-loading section b{display:block;background:#eeede7;height:10px;margin-bottom:18px;width:65%}.product-loading section i{width:90%;height:20px}.product-loading section b{width:42%;height:10px;margin-top:34px}
+@media(max-width:700px){.product-loading{grid-template-columns:1fr;gap:24px}.product-loading>div{aspect-ratio:1/.91}.product-loading section{display:none}}

@@ -1,0 +1,4 @@
+.product-skeleton>div{aspect-ratio:1/.98;background:linear-gradient(100deg,#eeede7 25%,#f5f4ef 42%,#eeede7 60%);background-size:200% 100%;animation:skeleton-shimmer 1.4s infinite}
+.product-skeleton>span,.product-skeleton>i{display:block;height:9px;background:#eeede7;margin-top:12px;width:65%}
+.product-skeleton>i{margin-top:8px;width:38%;height:7px}
+@keyframes skeleton-shimmer{to{background-position-x:-200%}}
